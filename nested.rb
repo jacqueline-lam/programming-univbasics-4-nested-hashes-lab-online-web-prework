@@ -119,4 +119,7 @@ def adding_to_dennis
         }
      }
   programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+  # use array.insert(index,element) if you want to add to a particular index
+  
+  programmer_hash
 end
